@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Boxicons CSS -->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Style CSS -->
+      <link rel="stylesheet" href="/css/style.css">
+    <!-- Theme CSS -->
+      <link rel="stylesheet" href="/css/theme.css">
+    <!-- Cursor CSS -->
+      <link rel="stylesheet" href="/cursor/cursor.css">
+</head>
+<body>
+  <!-- menu -->
+  <div class="main-menu"></div>
+  <header class="page-header">
+    <nav class="main-nav">
+      <p class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="68" viewBox="0 0 64 68"><path d="M43.23 51.76c-5.51 2.93-30.96 6.62-30.96 6.62s19.15-1.02 30.7-2.67C54.5 54.05 60.8 40.16 60.8 40.16L3.87 46.4l50.64-2.17s-5.78 4.6-11.28 7.53zM32.34 4.42c13.55 20.7.78 34.5.78 34.5 8.92-15.8-.78-34.5-.78-34.5zM29.3 41.3l25.29-2.8S60.72 12.94 27.88 0c0 0 12.7 23.22 1.43 41.3zM11.74 41.3c9.05-10.58 14.17-30.72 14.17-30.72C23.94 30.85 11.74 41.3 11.74 41.3zM26.83 3.2s-6.3 24.09-18.24 40.4l19.29-2.29L26.83 3.2z"/><path d="M24.2 47.68L3.87 49.27l.66 1.6 19.67-3.2zM21.84 52.52L6.43 55.06l.66 1.6 14.75-4.14zM5.32 52.46l.65 1.59 21.9-4.78-22.55 3.19zM7.42 61.79h-.14c-.18 0-.36.04-.53.14-.16.1-.3.22-.4.36l-1.89 2.82v2.1c.01.16.07.29.18.4.12.1.26.15.43.15h.12v.1H2.22v-.1h.12a.6.6 0 00.42-.15.57.57 0 00.18-.4v-2.1L1.06 62.3c-.1-.15-.23-.27-.4-.36-.17-.1-.34-.14-.53-.14H0v-.1h3.22v.1h-.11c-.14 0-.24.04-.3.13a.4.4 0 00-.08.22c0 .05 0 .1.04.15l1.4 2.37 1.44-2.37.03-.15c0-.07-.03-.14-.1-.22-.05-.09-.15-.13-.28-.13h-.1v-.1h2.26v.1zM13.28 67.76h.09v.1h-3.12v-.1h.08c.15 0 .25-.04.31-.12.07-.08.1-.16.1-.23a.62.62 0 00-.04-.21l-.42-.95H8.03l-.42.96a.56.56 0 00-.04.21c0 .07.03.15.1.23.06.08.17.11.31.11h.09v.1H5.94v-.1h.09c.15 0 .3-.04.44-.13a.97.97 0 00.37-.4l2.19-4.58c.31-.68.47-1.1.49-1.26h.1l2.84 5.8c.09.2.2.34.36.44.15.09.3.13.46.13zm-5.07-1.91h1.9l-.94-2.16-.96 2.16zM17.07 68a4.3 4.3 0 01-2.8-.86 2.93 2.93 0 01-1.02-2.37c0-1 .34-1.8 1-2.37a4.24 4.24 0 012.82-.85c.93 0 1.73.16 2.38.47v1.64h-.07a2.33 2.33 0 00-.82-1.3c-.37-.27-.83-.4-1.39-.4-.75 0-1.32.25-1.71.75-.4.5-.6 1.18-.6 2.04 0 .86.2 1.55.58 2.05.4.53.96.79 1.65.79.5 0 .91-.08 1.24-.23.32-.15.58-.4.77-.72.2-.34.33-.79.43-1.36h.07l.13 1.56a2.3 2.3 0 01-1 .84c-.45.21-1 .32-1.66.32zM27.6 67.76h.12v.1H24.8v-.1h.11a.6.6 0 00.41-.15.5.5 0 00.17-.4V65H22.7v2.23c.01.15.07.29.18.39.12.1.25.15.4.15h.12v.1h-2.92v-.1h.11a.6.6 0 00.42-.15.53.53 0 00.17-.4v-4.88a.5.5 0 00-.17-.38.57.57 0 00-.42-.16h-.11v-.1h2.92v.1h-.11a.58.58 0 00-.4.15.53.53 0 00-.19.38v2.26h2.8v-2.25a.5.5 0 00-.3-.47.63.63 0 00-.29-.07h-.1v-.1h2.91v.1h-.12a.58.58 0 00-.4.15.54.54 0 00-.18.4v4.89c0 .21.1.36.29.46.09.05.19.07.3.07zM34.2 63.15v-.1c0-.3-.08-.53-.25-.7a.99.99 0 00-.7-.26H32v5.14a.58.58 0 00.58.54h.12v.1H29.8v-.1h.1a.6.6 0 00.42-.16.5.5 0 00.17-.4V62.1h-1.22a1 1 0 00-.72.26.95.95 0 00-.26.7v.1h-.1v-1.63a4.35 4.35 0 001.11.15h3.91a3.86 3.86 0 001.11-.15v1.63h-.1zM41.25 68a4.3 4.3 0 01-2.8-.86 2.93 2.93 0 01-1.02-2.37c0-1 .33-1.8 1-2.37a4.24 4.24 0 012.82-.85c.93 0 1.72.16 2.38.47v1.64h-.07a2.33 2.33 0 00-.82-1.3c-.37-.27-.83-.4-1.39-.4-.75 0-1.32.25-1.72.75-.4.5-.59 1.18-.59 2.04 0 .86.2 1.55.58 2.05.4.53.95.79 1.65.79.5 0 .91-.08 1.24-.23.32-.15.58-.4.77-.72.2-.34.33-.79.43-1.36h.07l.13 1.56a2.3 2.3 0 01-1.01.84c-.45.21-1 .32-1.65.32zM44.66 67.87v-.1h.12c.17 0 .3-.06.4-.16a.5.5 0 00.18-.38v-4.9a.5.5 0 00-.17-.38.56.56 0 00-.4-.16h-.13v-.1h2.94v.1h-.12a.6.6 0 00-.42.15.5.5 0 00-.17.4v5.11h1.28c.43 0 .8-.13 1.1-.39.31-.26.54-.62.68-1.09h.11l-.4 1.9h-5zM57.26 61.79h-.14a.49.49 0 00-.34.12.4.4 0 00-.15.3v3.41c0 .74-.23 1.33-.7 1.75-.47.42-1.16.63-2.09.63-.92 0-1.64-.2-2.15-.62-.51-.41-.77-1-.77-1.74v-3.42a.39.39 0 00-.14-.31.49.49 0 00-.34-.12h-.15v-.1h2.79v.1h-.15a.49.49 0 00-.34.12.4.4 0 00-.14.3v3.36c0 .63.15 1.12.45 1.48.3.36.72.54 1.27.54.54 0 .97-.17 1.28-.5.32-.34.48-.81.48-1.4v-3.47a.41.41 0 00-.15-.31.49.49 0 00-.34-.12h-.14v-.1h1.96v.1zM63.09 63.22c0 .25-.06.48-.17.67a1.2 1.2 0 01-1 .6c.47.04.87.2 1.19.5.32.29.48.66.48 1.11 0 .89-.55 1.45-1.65 1.67-.3.07-.65.1-1.02.1h-3.07v-.1h.12c.16 0 .3-.06.4-.16.11-.1.17-.24.18-.4v-4.88a.52.52 0 00-.36-.5.6.6 0 00-.22-.04h-.12v-.1h2.84c1.6 0 2.4.5 2.4 1.53zm-1.22 2.8c0-.32-.07-.59-.2-.8-.25-.41-.68-.62-1.29-.62h-.02v-.1c.34 0 .62-.09.83-.28.21-.2.32-.5.32-.9 0-.82-.39-1.23-1.16-1.23h-.3v5.36h.43c.4 0 .74-.11 1-.35.26-.23.39-.6.39-1.09z"/></svg>
+      </p>
+      <ul class="site-navigation">
+        <li class="site-navigation-item"><a href="#">Наш клуб</a></li>
+        <li class="site-navigation-item"><a href="#">Регаты</a></li>
+        <li class="site-navigation-item"><a href="#">Команда</a></li>
+        <li class="site-navigation-item"><a href="#">Обучение</a></li>
+        <li class="site-navigation-item"><a href="#">Новости</a></li>
+        <li class="site-navigation-item"><a href="#">Контакты</a></li>
+      </ul>
+      <div class="theme">
+        <a href="#">
+          <i class='bx bx-moon theme-item' id="dark"></i>
+        </a>
+        <!-- <span class="moon theme-item"><i class='bx bx-moon'></i></span> -->
+        <!-- <span class="sun theme-item"><i class='bx bx-sun'></i></span> -->
+      </div>
+      <a href="#" class="signin">
+        <i class='bx bx-user'></i>
+      </a>
+    </nav>
+  </header>
+  <main class="main-content">
+    <section class="hero">
+      <h1>Вместе под парусом</h1>
+      <img class="sail-img" src="/img/main-photo-1.jpg" alt="">
+    </section>
+    <article class="blog-article blog-article-1">
+      <div class="blog-article-content">
+        <p class="blog-article-date">
+          <time datetime="2022-10-20">20 октября</time>
+          <time datetime="2023-04-19">19 апреля</time>
+        </p>
+        <h2>Стань частью команды</h2>
+        <p class="blog-article-description">Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время!
+          Мы набираем команду будущих шкиперов. За 6 вы станете настоящим капитаном и уже в следующем сезоне сможете
+          самостоятельно выйти в море!</p>
+      </div>
+      <img class="blog-article-img" src="/img/blog-photo-1.jpg" alt="">
+    </article>
+    <article class="blog-article blog-article-2">
+      <div class="blog-article-content">
+        <p class="blog-article-date">
+          <time datetime="2023-07-16">16 июля</time>
+          <time datetime="2023-07-23">23 июля</time>
+        </p>
+        <h2>Рожденные в воде</h2>
+        <p class="blog-article-description">Подарите детям настоящее приключение! День с морскими пиратами на корабле –
+          это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!</p>
+      </div>
+      <img class="blog-article-img" src="/img/blog-photo-2.jpg" alt="">
+    </article>
+    <section class="yacht-charter">
+      <h2>Аренда яхты</h2>
+      <div class="main-yacht-charter">
+        <div class="card-yacht card-yacht-1">
+          <img class="yacht-img" src="/img/yacht-charter-1.jpg" alt="Meridian 401">
+          <h3>Катер Meridian 401</h3>
+          <p>Яхта 401 длиной 12.5 метров и шириной 4.2 метра, вместимостью 11 человек</p>
+          <ul class="card-features">
+            <li>2 каюты</li>
+            <li>4 спальных места</li>
+            <li>аудиосистема, кондиционер</li>
+            <li>холодильник, микроволновка</li>
+            <li>душ, туалет</li>
+          </ul>
+          <p class="card-price">
+            <span class="card-price-name">Цена:</span>
+            <span class="card-price-value">14 000₽/час</span>
+          </p>
+        </div>
+        <div class="card-yacht card-yacht-2">
+          <img class="yacht-img" src="/img/yacht-charter-2.jpg" alt="60 Manhattan">
+          <h3>Катер 60 Manhattan</h3>
+          <p>Двухпалубное судно VIP уровня длиной 20 метров, вместимостью 10 человек</p>
+          <ul class="card-features">
+            <li>6 кают</li>
+            <li>носовая часть с огромной подушкой</li>
+            <li>просторный флайбридж</li>
+            <li>оборудованная кухня</li>
+            <li>джакузи</li>
+          </ul>
+          <p class="card-price">
+            <span class="card-price-name">Цена:</span>
+            <span class="card-price-value">25 000₽/час</span>
+          </p>
+        </div>
+        <div class="card-yacht card-yacht-3">
+          <img class="yacht-img" src="/img/yacht-charter-3.jpg" alt="Starfisher 34">
+          <h3>Катер Starfisher 34</h3>
+          <p>Моторная яхта длиной 11 метров и вместимостью до 8 человек</p>
+          <ul class="card-features">
+            <li>4 каюты</li>
+            <li>6 спальных мест</li>
+            <li>аудиосистема, кондиционер</li>
+            <li>холодильник, микроволновка</li>
+            <li>душ, туалет</li>
+          </ul>
+          <p class="card-price">
+            <span class="card-price-name">Цена:</span>
+            <span class="card-price-value">18 000₽/час</span>
+          </p>
+        </div>
+        <div class="card-yacht card-yacht-4">
+          <img class="yacht-img" src="/img/yacht-charter-4.jpg" alt="Pacific 7-13">
+          <h3>Катер Pacific 7-13</h3>
+          <p>Катер Pacific длиной 12 метров и шириной 4.6 метра вместимостью 8 человек</p>
+          <ul class="card-features">
+            <li>1 каюта</li>
+            <li>2 спальных места</li>
+            <li>аудиосистема, кондиционер</li>
+            <li>холодильник, микроволновка</li>
+            <li>туалет</li>
+          </ul>
+          <p class="card-price">
+            <span class="card-price-name">Цена:</span>
+            <span class="card-price-value">11 000₽/час</span>
+          </p>
+        </div>
+        <div class="card-yacht card-yacht-5">
+          <img class="yacht-img" src="/img/yacht-charter-5.jpg" alt="Atlantic 3000">
+          <h3>Катер Atlantic 3000</h3>
+          <p>Катер Atlantic длиной 14 метров и вместимостью до 6 человек</p>
+          <ul class="card-features">
+            <li>2 каюты</li>
+            <li>4 спальных места</li>
+            <li>просторный флайбридж</li>
+            <li>оборудованная кухня</li>
+            <li>душ, туалет</li>
+          </ul>
+          <p class="card-price">
+            <span class="card-price-name">Цена:</span>
+            <span class="card-price-value">15 000₽/час</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <h2>Галерея</h2>
+      <div class="slider">
+        <img class="active-photo" src="/img/gallery-photo-4.jpg" alt="">
+        <ul class="preview-list">
+          <li class="slider-preview-item">
+            <a href="/img/gallery-photo-1.jpg">
+              <img src="/img/preview-gallery-photo-1.jpg" alt="">
+            </a>
+          </li>
+          <li class="slider-preview-item">
+            <a href="/img/gallery-photo-2.jpg">
+              <img src="/img/preview-gallery-photo-2.jpg" alt="">
+            </a>
+          </li>
+          <li class="slider-preview-item">
+            <a href="/img/gallery-photo-3.jpg">
+              <img src="/img/preview-gallery-photo-3.jpg" alt="">
+            </a>
+          </li>
+          <li class="slider-preview-item">
+            <a class="activ" href="/img/gallery-photo-4.jpg">
+              <img src="/img/preview-gallery-photo-4.jpg" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="news">
+      <h2>Новости</h2>
+      <div class="post">
+        <div class="post-img">
+          <img src="/img/news-photo.jpg" alt="">
+          <p>Победитель регаты шкипер Иван Кулешов</p>
+        </div>
+        <div class="post-content">
+          <h3>Итоги регаты Sochi Race Week 2020</h3>
+          <p>Свыше сотни участников собирались на побережье Сочи, чтобы посоревноваться за главный приз. В соревнованиях
+            приняли участие как новички, так и профессионалы моряки, имеющие за плечами немалый опыт.</p>
+          <p>На протяжении всего плавания нас сопровождало солнце прекрасная погода, в отдельные дни ветер до 20 узлов.
+            Регата была прекрасно организована, 135 яхтсменов, 7 экипажей, 9 стран участниц, 4 гоночных дня, 3
+            дивизиона.</p>
+          <h4>Команды-участники:</h4>
+          <ul class="participating-teams">
+            <li>Восток 35</li>
+            <li>Fortune Sailing</li>
+            <li>Сибирь</li>
+            <li>Левиафан</li>
+            <li>Черный лебедь</li>
+            <li>White Pepper</li>
+            <li>Pearl</li>
+          </ul>
+          <p>Чемпионом регаты Sochi Race Week 2020 стала команда Fortune Sailing, в прошлом году остановившаяся в одном
+            шаге от победы, а в этом сезоне опередившая ближайшего соперника — экипаж «Восток 35» — на <del>12
+              баллов</del> <ins>5 баллов.</ins></p>
+          <blockquote>Мы в команде очень дружны и понимаем друг друга без слов, думаю, поэтому мы и победили
+          </blockquote>
+          <p>Поздравляем победителей и ждем все участников снова на осенних регатах!</p>
+        </div>
+        <footer class="post-footer">
+          <img class="post-author-img" src="/img/author.jpg" alt="">
+          <div class="post-meta">
+            <a href="#">Артём Колесников</a>
+            <time href="#" datetime="2023-06-20">20.06.2023</time>
+          </div>
+          <a href="#" class="post-share">
+            <img class="shareLight" src="/img/share.svg" alt="">
+            <img class="shareDark" src="/img/shareLight.svg" alt="">
+          </a>
+        </footer>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="contacts-content">
+        <h2>Контакты</h2>
+        <ul class="contact-items">
+          <li class="contact-item">
+            <h3>Адрес:</h3>
+            <address>г. Сочи, ул. Бзугу, 9</address>
+          </li>
+          <li class="contact-item">
+            <h3>Телефон:</h3>
+            <a href="tel">8 (622) 62-05-63</a>
+          </li>
+          <li class="contact-item">
+            <h3>E-mail:</h3>
+            <a href="email">yachtclub-sochi@mail.ru</a>
+          </li>
+          <li class="contact-item">
+            <h3>Мы в социальных сетях:</h3>
+            <ul class="social-list">
+              <li class="social-item">
+                <a href="#">
+                  <i class='bx bxl-facebook'></i>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="#">
+                  <i class='bx bxl-twitter'></i>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="#">
+                  <i class='bx bxl-instagram'></i>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <img class="contact-img" src="/img/map.png" alt="">
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="footer-conteiner">
+      <div class="footer-column">
+        <p class="footer-logo logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="68" viewBox="0 0 64 68"><path d="M43.23 51.76c-5.51 2.93-30.96 6.62-30.96 6.62s19.15-1.02 30.7-2.67C54.5 54.05 60.8 40.16 60.8 40.16L3.87 46.4l50.64-2.17s-5.78 4.6-11.28 7.53zM32.34 4.42c13.55 20.7.78 34.5.78 34.5 8.92-15.8-.78-34.5-.78-34.5zM29.3 41.3l25.29-2.8S60.72 12.94 27.88 0c0 0 12.7 23.22 1.43 41.3zM11.74 41.3c9.05-10.58 14.17-30.72 14.17-30.72C23.94 30.85 11.74 41.3 11.74 41.3zM26.83 3.2s-6.3 24.09-18.24 40.4l19.29-2.29L26.83 3.2z"/><path d="M24.2 47.68L3.87 49.27l.66 1.6 19.67-3.2zM21.84 52.52L6.43 55.06l.66 1.6 14.75-4.14zM5.32 52.46l.65 1.59 21.9-4.78-22.55 3.19zM7.42 61.79h-.14c-.18 0-.36.04-.53.14-.16.1-.3.22-.4.36l-1.89 2.82v2.1c.01.16.07.29.18.4.12.1.26.15.43.15h.12v.1H2.22v-.1h.12a.6.6 0 00.42-.15.57.57 0 00.18-.4v-2.1L1.06 62.3c-.1-.15-.23-.27-.4-.36-.17-.1-.34-.14-.53-.14H0v-.1h3.22v.1h-.11c-.14 0-.24.04-.3.13a.4.4 0 00-.08.22c0 .05 0 .1.04.15l1.4 2.37 1.44-2.37.03-.15c0-.07-.03-.14-.1-.22-.05-.09-.15-.13-.28-.13h-.1v-.1h2.26v.1zM13.28 67.76h.09v.1h-3.12v-.1h.08c.15 0 .25-.04.31-.12.07-.08.1-.16.1-.23a.62.62 0 00-.04-.21l-.42-.95H8.03l-.42.96a.56.56 0 00-.04.21c0 .07.03.15.1.23.06.08.17.11.31.11h.09v.1H5.94v-.1h.09c.15 0 .3-.04.44-.13a.97.97 0 00.37-.4l2.19-4.58c.31-.68.47-1.1.49-1.26h.1l2.84 5.8c.09.2.2.34.36.44.15.09.3.13.46.13zm-5.07-1.91h1.9l-.94-2.16-.96 2.16zM17.07 68a4.3 4.3 0 01-2.8-.86 2.93 2.93 0 01-1.02-2.37c0-1 .34-1.8 1-2.37a4.24 4.24 0 012.82-.85c.93 0 1.73.16 2.38.47v1.64h-.07a2.33 2.33 0 00-.82-1.3c-.37-.27-.83-.4-1.39-.4-.75 0-1.32.25-1.71.75-.4.5-.6 1.18-.6 2.04 0 .86.2 1.55.58 2.05.4.53.96.79 1.65.79.5 0 .91-.08 1.24-.23.32-.15.58-.4.77-.72.2-.34.33-.79.43-1.36h.07l.13 1.56a2.3 2.3 0 01-1 .84c-.45.21-1 .32-1.66.32zM27.6 67.76h.12v.1H24.8v-.1h.11a.6.6 0 00.41-.15.5.5 0 00.17-.4V65H22.7v2.23c.01.15.07.29.18.39.12.1.25.15.4.15h.12v.1h-2.92v-.1h.11a.6.6 0 00.42-.15.53.53 0 00.17-.4v-4.88a.5.5 0 00-.17-.38.57.57 0 00-.42-.16h-.11v-.1h2.92v.1h-.11a.58.58 0 00-.4.15.53.53 0 00-.19.38v2.26h2.8v-2.25a.5.5 0 00-.3-.47.63.63 0 00-.29-.07h-.1v-.1h2.91v.1h-.12a.58.58 0 00-.4.15.54.54 0 00-.18.4v4.89c0 .21.1.36.29.46.09.05.19.07.3.07zM34.2 63.15v-.1c0-.3-.08-.53-.25-.7a.99.99 0 00-.7-.26H32v5.14a.58.58 0 00.58.54h.12v.1H29.8v-.1h.1a.6.6 0 00.42-.16.5.5 0 00.17-.4V62.1h-1.22a1 1 0 00-.72.26.95.95 0 00-.26.7v.1h-.1v-1.63a4.35 4.35 0 001.11.15h3.91a3.86 3.86 0 001.11-.15v1.63h-.1zM41.25 68a4.3 4.3 0 01-2.8-.86 2.93 2.93 0 01-1.02-2.37c0-1 .33-1.8 1-2.37a4.24 4.24 0 012.82-.85c.93 0 1.72.16 2.38.47v1.64h-.07a2.33 2.33 0 00-.82-1.3c-.37-.27-.83-.4-1.39-.4-.75 0-1.32.25-1.72.75-.4.5-.59 1.18-.59 2.04 0 .86.2 1.55.58 2.05.4.53.95.79 1.65.79.5 0 .91-.08 1.24-.23.32-.15.58-.4.77-.72.2-.34.33-.79.43-1.36h.07l.13 1.56a2.3 2.3 0 01-1.01.84c-.45.21-1 .32-1.65.32zM44.66 67.87v-.1h.12c.17 0 .3-.06.4-.16a.5.5 0 00.18-.38v-4.9a.5.5 0 00-.17-.38.56.56 0 00-.4-.16h-.13v-.1h2.94v.1h-.12a.6.6 0 00-.42.15.5.5 0 00-.17.4v5.11h1.28c.43 0 .8-.13 1.1-.39.31-.26.54-.62.68-1.09h.11l-.4 1.9h-5zM57.26 61.79h-.14a.49.49 0 00-.34.12.4.4 0 00-.15.3v3.41c0 .74-.23 1.33-.7 1.75-.47.42-1.16.63-2.09.63-.92 0-1.64-.2-2.15-.62-.51-.41-.77-1-.77-1.74v-3.42a.39.39 0 00-.14-.31.49.49 0 00-.34-.12h-.15v-.1h2.79v.1h-.15a.49.49 0 00-.34.12.4.4 0 00-.14.3v3.36c0 .63.15 1.12.45 1.48.3.36.72.54 1.27.54.54 0 .97-.17 1.28-.5.32-.34.48-.81.48-1.4v-3.47a.41.41 0 00-.15-.31.49.49 0 00-.34-.12h-.14v-.1h1.96v.1zM63.09 63.22c0 .25-.06.48-.17.67a1.2 1.2 0 01-1 .6c.47.04.87.2 1.19.5.32.29.48.66.48 1.11 0 .89-.55 1.45-1.65 1.67-.3.07-.65.1-1.02.1h-3.07v-.1h.12c.16 0 .3-.06.4-.16.11-.1.17-.24.18-.4v-4.88a.52.52 0 00-.36-.5.6.6 0 00-.22-.04h-.12v-.1h2.84c1.6 0 2.4.5 2.4 1.53zm-1.22 2.8c0-.32-.07-.59-.2-.8-.25-.41-.68-.62-1.29-.62h-.02v-.1c.34 0 .62-.09.83-.28.21-.2.32-.5.32-.9 0-.82-.39-1.23-1.16-1.23h-.3v5.36h.43c.4 0 .74-.11 1-.35.26-.23.39-.6.39-1.09z"/></svg>
+        </p>
+        <p class="policy">
+          <a href="#">Политика конфиденциальности</a>
+        </p>
+        <p class="copyright">Яхтклуб ©2020 Все права защищены</p>
+      </div>
+      <ul class="footer-navigation-topics">
+        <li class="footer-navigation-topic">
+          <h2>Компания</h2>
+          <ul class="footer-navigation">
+            <li class="footer-navigation-item"><a href="#">О нас</a></li>
+            <li class="footer-navigation-item"><a href="#">Команда</a></li>
+            <li class="footer-navigation-item"><a href="#">Новости</a></li>
+            <li class="footer-navigation-item"><a href="#">Блог</a></li>
+            <li class="footer-navigation-item"><a href="#">Галерея</a></li>
+          </ul>
+        </li>
+        <li class="footer-navigation-topic">
+          <h2>Яхт-клуб</h2>
+          <ul class="footer-navigation">
+            <li class="footer-navigation-item"><a href="#">Правила</a></li>
+            <li class="footer-navigation-item"><a href="#">Стоимость</a></li>
+            <li class="footer-navigation-item"><a href="#">Анкета</a></li>
+            <li class="footer-navigation-item"><a href="#">FAQ</a></li>
+            <li class="footer-navigation-item"><a href="#">Партнеры</a></li>
+          </ul>
+        </li>
+        <li class="footer-navigation-topic">
+          <h2>Услуги</h2>
+          <ul class="footer-navigation">
+            <li class="footer-navigation-item"><a href="#">Аренда яхты</a></li>
+            <li class="footer-navigation-item"><a href="#">Свадьба на яхте</a></li>
+            <li class="footer-navigation-item"><a href="#">День рождения</a></li>
+            <li class="footer-navigation-item"><a href="#">Бизнес-встречи</a></li>
+            <li class="footer-navigation-item"><a href="#">Прогулки</a></li>
+          </ul>
+        </li>
+        <li class="footer-navigation-topic">
+          <h2>Регаты</h2>
+          <ul class="footer-navigation">
+            <li class="footer-navigation-item"><a href="#">Корпоративные регаты</a></li>
+            <li class="footer-navigation-item"><a href="#">Календарь мероприятий</a></li>
+            <li class="footer-navigation-item"><a href="#">Стать участником</a></li>
+            <li class="footer-navigation-item"><a href="#">Результаты регат</a></li>
+            <li class="footer-navigation-item"><a href="#">Обучение</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="/js/theme.js"></script>
+  <script src="/js/gallery.js"></script>
+</body>
+</html>

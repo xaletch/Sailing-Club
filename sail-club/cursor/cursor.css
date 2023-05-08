@@ -1,0 +1,26 @@
+.movement {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background: rgb(0, 0, 0, 0.8);
+    border-radius: 50%;
+    /* transition: .5s cubic-bezier(.75,-1.27,.3,2.33) transform, .2s cubic-bezier(.75,-1.27,.3,2.33) opacity; */
+    transition: 0.1s;
+    user-select: none;
+    pointer-events: none;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hidden {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.active {
+    width: 22px;
+    height: 22px;
+    background: rgb(0, 0, 0, 0.7);
+}

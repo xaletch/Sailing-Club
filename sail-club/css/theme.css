@@ -1,0 +1,242 @@
+/* dark theme */
+.dark {
+    background: #111;
+}
+
+.dark .cursor {
+    background: rgb(221, 221, 221, 0.8);
+}
+
+.dark .active {
+    background: rgb(221, 221, 221, 0.7);
+}
+
+.dark .site-navigation li a {
+    color: #fff;
+}
+
+.dark .site-navigation-item a {
+    color: #fff;
+}
+
+.dark .bx {
+    color: #fff;
+}
+
+.site-navigation-item a:hover {
+    color: #9c9c9c;
+    transition: all 0.2s;
+}
+
+.site-navigation-item a:active {
+    color: #9c9c9c;
+}
+
+.dark .site-navigation-item a:hover {
+    color: #9c9c9c;
+    transition: all 0.2s;
+}
+
+.dark .site-navigation-item a:active {
+    color: #9c9c9c;
+}
+
+.dark .signin {
+    color: #fff;
+}
+
+.dark .hero h1 {
+    color: #fff;
+}
+
+.dark .blog-article-date {
+    color: #fff;
+}
+
+.dark .blog-article-date time {
+    color: #fff;
+}
+
+.dark .blog-article-1 .blog-article-content h2 {
+    color: #fff;
+}
+
+.dark .blog-article-description {
+    color: #fff;
+}
+
+.dark .blog-article-2 .blog-article-content h2 {
+    color: #fff;
+}
+
+.dark .yacht-charter h2 {
+    color: #fff;
+}
+
+.dark .card-yacht {
+    background: #111;
+    box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.199);
+}
+
+.dark .card-yacht h3 {
+    color: #fff;
+}
+
+.dark .card-yacht p {
+    color: #fff;
+}
+
+.dark .card-features li {
+    color: #fff;
+}
+
+.dark .card-features li::before {
+    content: "";
+    background: #fff;
+}
+
+.dark .card-price span {
+    color: #fff;
+}
+
+/* Галерея */
+.dark .gallery h2 {
+    color: #fff;
+}
+
+.dark.preview-list li {
+    color: #fff;
+}
+
+/* Новости */
+.dark .news h2 {
+    color: #fff;
+}
+
+.dark .post-img p {
+    color: rgba(206, 213, 221, 0.863);
+}
+
+.dark .post-content h3 {
+    color: #fff;
+}
+
+.dark .post-content p, del, ins{
+    color: #fff;
+}
+
+.dark .post-content h4 {
+    color: #fff;
+}
+
+.dark .participating-teams li {
+    color: #fff;
+}
+
+.dark .participating-teams li::before {
+    content: "";
+    background: #fff;
+}
+
+.dark .post-content blockquote {
+    color: #fff;
+}
+
+.dark .post-meta a {
+    color: #fff;
+}
+
+.dark .post-meta time {
+    color: #c7ccd3ef;
+}
+
+.dark .post-meta a:hover {
+    color: #9c9c9c;
+    transition: all 0.3s;
+}
+
+.dark .post-meta a:active {
+    color: #9c9c9c;
+}
+
+/* контакты */
+
+.dark .contacts h2 {
+    color: #fff;
+}
+
+.dark .contact-item h3 {
+    color: #fff;
+}
+
+.dark .contact-item a {
+    color: #fff;
+}
+
+.dark .contact-item address {
+    color: #fff;
+}
+
+.dark .contact-item a:hover {
+    color: #9c9c9c;
+    transition: all 0.3s;
+}
+
+.dark .contact-item a:active {
+    color: #9c9c9c;
+}
+
+.dark .social-item a {
+    color: #fff;
+}
+
+/* footer */
+.dark .main-footer {
+    border-top: 1px solid #9c9c9c;
+}
+
+.dark .footer-column p {
+    color: #fff;
+}
+
+.dark .policy a {
+    color: #fff;
+}
+
+.dark .policy a:hover {
+    color: #9c9c9c;
+    transition: all 0.3s;
+}
+
+.dark .policy a:active {
+    color: #9c9c9c;
+}
+
+.dark .footer-navigation-topic h2 {
+    color: #fff;
+}
+
+.dark .footer-navigation-item a {
+    color: #fff;
+}
+
+.dark .footer-navigation-item a:hover {
+    color: #9c9c9c;
+    transition: all 0.3s;
+}
+
+.dark .footer-navigation-item a:active {
+    color: #9c9c9c;
+}
+
+.off-light {
+    display: none;
+}
+
+.on-dark {
+    display: block;
+}
+
+.logo-dark svg {
+    fill: #fff;
+}
