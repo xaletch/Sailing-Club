@@ -124,7 +124,6 @@
 .dark .post-content p, del, ins{
     color: #fff;
 }
-
 .dark .post-content h4 {
     color: #fff;
 }
@@ -160,7 +159,6 @@
 }
 
 /* контакты */
-
 .dark .contacts h2 {
     color: #fff;
 }
@@ -237,6 +235,6 @@
     display: block;
 }
 
-.logo-dark svg {
+.dark-svg svg {
     fill: #fff;
 }
